@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x.icon" href="./img/Pokebola.png">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./css/pokedex.css"> 
+</head>
+
+<body>
+
+        <section id="logo" class="logo"> 
+            <img src="./img/logo.png" alt="Logo" width="100%" height="80%"> 
+        </section>
+
+        <section id= "" class="contenedor" >   
+            <div class="contenedorElementos">
+                <img src="./img/pokeAbierto.png" alt="pokedex" id="pokedex">
+                <img src="./img/Pokebola.png" alt="Pokemon" id="pokeImg" class="pokebola">
+                <input type="text" placeholder="Nombre/ID" id="inputName" name="inputName" class="inputName"> 
+
+                <button id="boton" onclick="fetchPokemon()" class="boton">BUSCAR </button>
+            
+                <p id="id" class="id"> # </p> <br>
+                <p id="nombre" class="nombre"> </p> <br>
+                <div class="tipo"> Tipo
+                    <p id="tipo"> </p>
+                </div> <br>
+                <p id="altura" class="altura"> Altura </p> <br>
+                <p id="peso" class="peso"> Peso </p> <br>
+                <p id="movimientos" class="movimientos"> Movimientos </p> <br>
+                <p id="habilidades" class="habilidades"> Habilidades </p> <br>
+                <div id="estadisticas" class="estadisticas"> Estadísticas: 
+                    <p id="salud"> </p>
+                    <p id="ataque"> </p>
+                    <p id="defensa"> </p>
+                    <p id="ataqueEsp"> </p>
+                    <p id="defensaEsp"> </p>
+                    <p id="velocidad"> </p>
+
+                </div> <br> 
+            </div>
+        </section>
+            
+
+
+
+</body>
+
+<footer> 
+    <script src="./JS/pokedex.js"> </script>
+</footer>
+</html>

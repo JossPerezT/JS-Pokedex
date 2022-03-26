@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Press Start 2P', cursive;
+}
+body {
+
+    background-image: url("../img/fondo.jpeg");}
+.logo {
+    display: grid;
+    justify-content: center;
+}
+.contenedor {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.contenedorElementos {
+    width: 693px;
+    height: 565px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.pokebola {
+    width: 20%;
+    height: 24%;
+    position: absolute;
+    left: 16%;
+    top: 33%;
+    transform: rotate(-5deg);
+}
+.inputName {
+    width: 12%;
+    height: 9%;
+    position: absolute;
+    bottom: 20%;
+    left: 16%;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    background-color: transparent;
+    transform: rotate(-1deg);
+    font-size: xx-small;
+}
+.boton {
+    width: 8%;
+    height: 10%;
+    display: flex;
+    align-items:flex-end;  
+    position: absolute;
+    left: 6%;
+    bottom: 23%;
+    border-radius: 100%;
+    background-color: transparent;
+    color: white;
+    font-size:xx-small;
+}
+.id {
+    width: auto;
+    height: auto;
+    display: flex;
+    position: absolute;
+    left: 35%;
+    top:15%;
+
+    background-color: transparent;
+    color: black;
+}
+.nombre {
+    width: auto;
+    height: auto;
+    display: flex;
+    position: absolute;
+    left: 18%;
+    top:25%;
+    transform: rotate(-3deg);
+    background-color: transparent;
+    color: black;
+}
+.tipo {
+    width: auto;
+    height: auto;
+    display: flex;
+    position: absolute;
+    left: 57%;
+    top:15%;
+    transform: rotate(-3deg);
+    background-color: transparent;
+    color: black;
+    flex-direction: column;
+}
+
+.altura {
+    width: 10%;
+    height: 5%;
+    display: flex;
+    position: absolute;
+    left: 60%;
+    top:73%;
+    transform: rotate(-3deg);
+    background-color: transparent;
+    font-size: small;
+    color: white;
+}
+.peso {
+    width: 10%;
+    height: 5%;
+    display: flex;
+    position: absolute;
+    left: 78%;
+    top:72%;
+    transform: rotate(-3deg);
+    background-color: transparent;
+    font-size: small;
+    color: white;
+}
+.habilidades {
+    width: 28%;
+    height: 10%;
+    display: flex;
+    position: absolute;
+    left: 59%;
+    top:59%;
+    transform: rotate(-1deg);
+    background-color: white;
+    color: black;
+    border-radius: 10%;
+    overflow-y: auto;
+    overflow: wrap;
+    vertical-align: super;
+    font-size: small;
+    flex-direction: column;
+    padding: 2px;
+}
+.movimientos {
+    width: 34%;
+    height: 10%;
+    display: block;
+    align-items: flex-start;
+    flex-direction: column;
+    overflow-y:auto;
+    overflow-x: hidden;
+    overflow: wrap;
+    position: absolute;
+    left: 60%;
+    top:28%;
+    transform: rotate(-2deg);
+    background-color: transparent;
+    color: white;
+    font-size: small;
+    padding: 2px;
+}
+.estadisticas {
+    width: 33%;
+    height: 13%;
+    display: block;
+    align-items: flex-start;
+    flex-direction: column;
+    overflow-y: auto;
+    position: absolute;
+    overflow: wrap;
+    left: 59%;
+    top:42%;
+    transform: rotate(-2deg);
+    background-color: rgba(133, 205, 250);
+    border-radius: 5%;
+    color: black;
+    font-size: small;
+    padding: 2px;
+}
+
